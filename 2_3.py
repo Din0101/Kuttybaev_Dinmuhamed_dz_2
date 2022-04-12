@@ -11,8 +11,8 @@ while i < l:
                 some_lst[i] = some_lst[i].zfill(2)
             else:
                 some_lst[i] = some_lst[i].zfill(3)
-            some_lst.insert(i+1, "a")
-            some_lst.insert(i, "a")
+            some_lst.insert(i+1, "\"")
+            some_lst.insert(i, "\"")
             b += 1
             l += 2
             i += 1
